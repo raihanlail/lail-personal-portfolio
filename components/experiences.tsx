@@ -6,7 +6,7 @@ import ExperiencesTitle from "./experienceTtile";
 const Experiences = () => {
   return (
     <div className="my-16 md:my-32">
-        <ExperiencesTitle/>
+      <ExperiencesTitle />
       {experiencesData.map((data, i) => (
         <section
           key={i}
@@ -14,25 +14,25 @@ const Experiences = () => {
         >
           <div className="w-full lg:w-2/3 flex flex-col p-8 text-color-light justify-between">
             <div className="flex flex-col text-color-light  ">
-                <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold">{data.title} at <span className="text-color-bright">{data.location} </span></h1>
+              <h1 className="text-2xl md:text-4xl lg:text-5xl font-extrabold">
+                {data.title} at{" "}
+                <span className="text-color-bright">{data.location} </span>
+              </h1>
             </div>
             <div className="">
-                <p className="md:text-xl font-bold"> {data.description
-                }</p>
-
+              <p className="md:text-xl font-bold"> {data.description}</p>
             </div>
             <div>
-                <p>
-                    {data.date}
-
-                </p>
+              <p>{data.date}</p>
             </div>
-
           </div>
           <div className="w-full lg:w-1/3 flex flex-col items-center justify-center">
             <div key={i} className="">
               {data.images.map((img, i) => (
-                <div key={i} className=" w-96 h-72 overflow-hidden flex items-center justify-center">
+                <div
+                  key={i}
+                  className=" w-96 h-72 overflow-hidden flex items-center justify-center"
+                >
                   <Image
                     src={img.image}
                     width={1000}
