@@ -10,7 +10,7 @@ const Experiences = () => {
       {experiencesData.map((data, i) => (
         <section
           key={i}
-          className="flex flex-col lg:flex-row border border-color-bright rounded-lg transition-all mx-12 my-12"
+          className="flex flex-col lg:flex-row border-4 border-color-bright rounded-lg transition-all mx-8 md:mx-12 my-12"
         >
           <div className="w-full lg:w-2/3 flex flex-col p-8 text-color-light justify-between">
             <div className="flex flex-col text-color-light  ">
@@ -19,10 +19,10 @@ const Experiences = () => {
                 <span className="text-color-bright">{data.location} </span>
               </h1>
             </div>
-            <div className="">
+            <div className="pt-12 md:pt-0">
               <p className="md:text-xl font-bold"> {data.description}</p>
             </div>
-            <div>
+            <div className="pt-12 md:pt-0">
               <p>{data.date}</p>
             </div>
           </div>

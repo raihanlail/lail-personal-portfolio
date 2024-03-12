@@ -8,6 +8,8 @@ import khanzaImg from "@/public/khanza.png";
 import portoImg from "@/public/porto.png"
 import bps1 from "@/public/bps1.png"
 import bps2 from "@/public/bps2.png"
+import htlb1 from "@/public/hitlab1.png"
+import htlb2 from "@/public/hitlab2.png"
 
 export const links = [
  
@@ -50,8 +52,32 @@ export const experiencesData = [
   },
 ] as const;
 
+export const volunteersData = [
+  {
+    title: "Event Organizer",
+    location: "HITLAB 2023",
+    description:
+      `So happy to be the PIC for the most anticipated learning class in <span class="text-color-bright font-extrabold">HITLAB 2023</span>: Data Science Class. 
+      I have gained many new experiences, new friends, new knowledge, and what it's like to work as a team. It's truly an honor to be part of this event.`,
+    icon: React.createElement(CgWorkAlt),
+    date: "October 2023 - December 2023",
+    images: [
+      {
+        image: htlb1,
+
+      },
+      {
+        image: htlb2,
+      }
+
+    ]
+  },
+  
+] as const;
+
 export const projectsData = [
   {
+    id: "1",
     title: "MyAnime",
     description:
       "An anime dictionary website like myanimelist, contains all detail from 1000+ animes. Also the recommendation and searching feature.",
@@ -67,6 +93,7 @@ export const projectsData = [
     imageUrl: myanime1img,
   },
   {
+    id: "2",
     title: "SIMONEV BPS",
     description: "A monitoring app for employee's work in BPS. Monitor performance achievements, budget realization, and visualize them in real-time charts, annually. ",
     tags: ["Laravel", "Jetstream","JavaScript", "Tailwind", "MySQL"],
@@ -80,6 +107,7 @@ export const projectsData = [
     imageUrl: simonev2,
   },
   {
+    id: "3",
     title: "SIMRS KHANZA",
     description: "A hospital admin dashboard to monitoring and managing patients data.",
     tags: ["Laravel", "Inertia", "Vue", "Tailwind", "MySQL"],
@@ -93,6 +121,7 @@ export const projectsData = [
     imageUrl: khanzaImg,
   },
   {
+    id:"4",
     title: "Personal Website",
     description:
       "My personal portfolio website. Work on progress",

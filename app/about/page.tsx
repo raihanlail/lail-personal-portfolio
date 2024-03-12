@@ -36,22 +36,22 @@ const page = () => {
       animate="animate"
     >
       <motion.div className="text-color-light flex flex-col items-center overflow-hidden transition-all justify-center h-48 sm:h-56 md:h-64 lg:h-72">
-        <h1 className="text-xl sm:text-6xl font-extrabold">
+        <h1 className="text-3xl sm:text-6xl font-extrabold">
           About
           <span className="text-color-bright"> Me</span>
         </h1>
       </motion.div>
       <Jumbotron />
-      <Line />
-      <div className=" mx-12 lg:mx-8">
-        <h1 className="text-color-bright text-2xl lg:text-5xl font-extrabold">
+      
+      <div className=" mx-8 lg:mx-8 my-12">
+        <h1 className="text-color-light text-2xl lg:text-5xl py-12 font-extrabold">
           Profile <span className="text-color-light">Summary</span>
         </h1>
         <ContentData />
       </div>
       <Line />
       <Experiences />
-
+      <SkillsTitle />
       <Skills />
       <div className="flex items-center justify-center py-6">
         <Link href={"./projects"}>

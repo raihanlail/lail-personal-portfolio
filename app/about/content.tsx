@@ -10,8 +10,8 @@ function parseData() {
 }
 const ContentData = () => {
   return (
-    <div className='text-color-light text-justify md:text-left  text-lg lg:text-2xl py-4 lg:py-8'>
-      <p className=''>{parseData()}</p>
+    <div className='text-color-light text-justify md:text-left border-4 border-color-bright rounded-lg  text-lg lg:text-2xl py-4 lg:py-16'>
+      <p className='p-4'>{parseData()}</p>
     </div>
   )
 }

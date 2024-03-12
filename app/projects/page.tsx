@@ -27,9 +27,12 @@ const page = () => {
     },
   };
   return (
-    <div className="py-32 sm:py-0" id="Projects">
+    <div className="py-40 sm:py-0" id="Projects">
       <section className="sm:py-[6.6rem]">
+        <div className="sm:py-10">
+
         <ProjectTitle/>
+        </div>
         <motion.div variants={fadeInAnimationVariants} initial="initial" animate="animate" className="text-color-light py-4">
           {projectsData.map((project, i) => (
             <React.Fragment key={i}>

@@ -3,6 +3,7 @@
 import Back from '@/components/back'
 import OtherSkills from '@/components/otherSkills'
 import Skills from '@/components/skills'
+import SkillsTitle from '@/components/skillsTitle'
 import { motion } from 'framer-motion'
 import React from 'react'
 
@@ -28,11 +29,12 @@ const page = () => {
     <motion.div initial="initial" id='Skills'
     animate="animate"
     variants={ScrollAnimationVariants} className='mt-32 md:mt-32'>
-        <div className='text-xl -mb-20  sm:py-4 px-8 pb-2 sm:pb-0  sm:px-14 relative text-color-light'>
-            <h1>For Main Work:</h1>
-        </div>
+        
         <div className=''>
-
+        <SkillsTitle />
+        <div className='px-8 sm:px-14 pt-12 text-color-light text-xl'>
+            <h1>For Main Works:</h1>
+        </div>
       <Skills/>
         </div>
         <div className='px-8 sm:px-14 text-color-light text-xl'>
