@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import ParticleBg from "@/components/particleBg"
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata: Metadata = {
   title: "Raihan | Personal Portfolio",
@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       
-      <body className={`${inter.className} bg-color-primary text-gray-50 relative max-h-[1500px] scroll-smooth `}>
+      <body className={` bg-color-primary text-gray-50 relative max-h-[1500px] scroll-smooth `}>
         
         <div className="bg-color-secondary absolute top-[-6rem] right-[11rem] h-[31.25rem] -z-10 w-[31.25rem] 
         rounded-full blur-[10rem] sm:w-[68.75 rem] ">

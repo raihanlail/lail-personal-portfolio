@@ -32,15 +32,15 @@ const Header = () => {
           <div className="flex flex-row w-full justify-between">
 
           <div className="flex flex-col md:flex-row w-full justify-between">
-            <div className=" pl-8 pr-4 sm:pr-8 md:pl-5 text-2xl font-bold hover:text-color-brighter hover:font-extrabold hover:text-[1.6rem] active:text-color-bright active:font-extrabold transition-all">
-              <Link href={"/"} onClick={() => setActiveSection("Home")}>
+            
+              <Link className=" pl-8 pr-4 sm:pr-8 md:pl-5 text-2xl font-bold hover:text-color-brighter hover:font-extrabold hover:text-[1.6rem] active:text-color-bright active:font-extrabold transition-all" href={"/"} onClick={() => setActiveSection("Home")}>
                 Raihan
               </Link>
-            </div>
+            
             
             <ul
               className={`flex  w-full flex-col  md:flex-row md:z-auto transition-all z-[-1] duration-500 ease-in pl-8  py-2 md:py-0 
-            md:ml-[20rem] lg:ml-[35rem] xl:ml-[45rem] 2lg:ml[55rem] 2xl:ml-[60rem]   gap-y-1 ${
+            md:ml-[20rem] lg:ml-[35rem] xl:ml-[45rem] 2lg:ml[55rem] 2xl:ml-[55rem]   gap-y-1 ${
               open ? `flex ` : "hidden md:flex"
             }  `}
             >
