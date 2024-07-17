@@ -10,6 +10,10 @@ import Footer from "@/components/footer";
 export const metadata: Metadata = {
   title: "Raihan Lail Ramadhan",
   description: "A Junior Front-End Developer",
+  authors:[{name: "Raihan Lail Ramadhan", url: "https://lail-personal-portfolio.vercel.app/"}],
+  openGraph: {
+    title: "Raihan Lail Ramadhan"
+  }
 };
 
 export default function RootLayout({
