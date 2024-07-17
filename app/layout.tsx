@@ -8,7 +8,7 @@ import Footer from "@/components/footer";
 
 
 export const metadata: Metadata = {
-  title: "Raihan | Personal Portfolio",
+  title: "Raihan Lail Ramadhan",
   description: "A Junior Front-End Developer",
 };
 
