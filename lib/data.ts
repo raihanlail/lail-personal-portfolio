@@ -22,6 +22,15 @@ import bps1 from "@/public/bps1.png"
 import bps2 from "@/public/bps2.png"
 import htlb1 from "@/public/hitlab1.png"
 import htlb2 from "@/public/hitlab2.png"
+import vodeco1 from "@/public/vodeco1.png"
+import vodeco2 from "@/public/vodeco2.png";
+import vodeco3 from "@/public/vodeco3.png";
+import vodeco4 from "@/public/vodeco4.png";
+import futour from "@/public/futour.png"
+import futour1 from "@/public/futour1.png"
+import futour2 from "@/public/futour2.png"
+import futour3 from "@/public/futour3.png"
+import futour4 from "@/public/futour4.png"
 
 export const links = [
  
@@ -90,6 +99,34 @@ export const volunteersData = [
 export const projectsData = [
   {
     id: 1,
+    title: "FuTour",
+    description:
+      "An AI travel assistant that helps users to find the best travel destinations on Indonesia.",
+    tags: ["Flask","Firestore", "Python", "Tensorflow", "Scikit-learn", "Android Studio", "Google Cloud Platform"],
+    source: [
+      { title: "Github", link: "https://github.com/FuTour-App/" },
+     
+    ],
+
+    imageUrl: futour,
+    images: [
+      {
+        imagelist: futour1,
+      },
+      {
+        imagelist: futour2,
+      },
+      {
+        imagelist: futour3,
+      },
+      {
+        imagelist: futour4,
+      },
+      
+    ],
+  },
+  {
+    id: 2,
     title: "MyAnime",
     description:
       "An anime dictionary website like myanimelist, contains all detail from 1000+ animes. Also the recommendation and searching feature.",
@@ -119,7 +156,34 @@ export const projectsData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
+    title: "Vodeco Clone Website",
+    description:
+      "A Clone for vodeco website, with functionalities such as login, register, ordering, and mailing",
+    tags: ["React","JavaScript", "Next.js", "Tailwind", "Nodemailer"],
+    source: [
+      { title: "Github", link: "https://github.com/raihanlail/vodeco" },
+      
+    ],
+
+    imageUrl: vodeco1,
+    images: [
+      {
+        imagelist: vodeco1,
+      },
+      {
+        imagelist: vodeco2,
+      },
+      {
+        imagelist: vodeco3,
+      },
+      {
+        imagelist: vodeco4,
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "SIMONEV BPS",
     description: "A monitoring app for employee's work in BPS. Monitor performance achievements, budget realization, and visualize them in real-time charts, annually. ",
     tags: ["Laravel", "Jetstream","JavaScript", "Tailwind", "MySQL"],
@@ -147,7 +211,7 @@ export const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 5,
     title: "SIMRS KHANZA",
     description: "A hospital admin dashboard to monitoring and managing patients data.",
     tags: ["Laravel", "Inertia", "Vue", "Tailwind", "MySQL"],
@@ -175,7 +239,7 @@ export const projectsData = [
     ],
   },
   {
-    id:4,
+    id:6,
     title: "Personal Website",
     description:
       "My personal portfolio website. Work on progress",
@@ -212,8 +276,8 @@ export const introData = [
     name1: "Raihan",
     name2: "Lail",
     name3: "Ramadhan",
-    desc1: "I'm a Junior",
-    desc2: "Front-end Web Developer",
+    desc1: "I'm a Full-Stack",
+    desc2: "Web Developer",
     button1: "Download CV ",
     button2: "More About Me ",
     linkedin: "https://www.linkedin.com/in/raihan-lail-ramadhan-750909220/",
