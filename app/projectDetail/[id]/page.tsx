@@ -1,4 +1,4 @@
-import Back from "@/components/back";
+import Back from "@/components/back/back";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";

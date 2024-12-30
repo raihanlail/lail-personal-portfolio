@@ -1,10 +1,10 @@
 "use client"
-import Back from '@/components/back'
-import Experiences from '@/components/experiences'
+import Back from '@/components/back/back'
+import Experiences from '@/components/experience/experiences'
 import { motion } from 'framer-motion'
 import React from 'react'
 import Line from '../about/line'
-import Volunteers from '@/components/volunteers'
+import Volunteers from '@/components/volunteers/volunteers'
 
 
 const page = () => {

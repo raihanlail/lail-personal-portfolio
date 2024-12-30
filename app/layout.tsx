@@ -1,15 +1,24 @@
 import type { Metadata } from "next";
 
 import "./globals.css";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
+import Header from "@/components/header/header";
+import Footer from "@/components/footer/footer";
 
 
 
 
 export const metadata: Metadata = {
-  title: "Raihan Lail Ramadhan",
+  title: {
+    default: "Raihan Lail Ramadhan",
+    template: "%s | Raihan Lail Ramadhan",
+  },
   description: "A Junior Front-End Developer",
+  twitter: {
+    card: "summary_large_image",
+    title: "Raihan Lail Ramadhan",
+    description: "A Junior Front-End Developer",
+    
+  },
   authors:[{name: "Raihan Lail Ramadhan", url: "https://lail-personal-portfolio.vercel.app/"}],
   openGraph: {
     title: "Raihan Lail Ramadhan"

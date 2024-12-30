@@ -1,13 +1,13 @@
 "use client"
-import Projects from "@/components/projects";
+import Projects from "@/components/projects/projects";
 import React, { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll } from "framer-motion";
-import Project from "@/components/project";
-import ProjectTitle from "@/components/projectTitle";
-import Back from "@/components/back";
+import Project from "@/components/projects/project";
+import ProjectTitle from "@/components/projects/projectTitle";
+import Back from "@/components/back/back";
 
 const page = () => {
   const fadeInAnimationVariants = {

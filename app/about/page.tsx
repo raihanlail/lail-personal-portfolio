@@ -4,11 +4,14 @@ import React from "react";
 import Jumbotron from "./jumbotron";
 import { Content } from "next/font/google";
 import ContentData from "./content";
+import { Metadata } from "next";
 import Line from "./line";
-import Experiences from "@/components/experiences";
-import SkillsTitle from "@/components/skillsTitle";
-import Skills from "@/components/skills";
+import Experiences from "@/components/experience/experiences";
+import SkillsTitle from "@/components/skills/skillsTitle";
+import Skills from "@/components/skills/skills";
 import Link from "next/link";
+
+
 
 const page = () => {
   const fadeInAnimationVariants = {
