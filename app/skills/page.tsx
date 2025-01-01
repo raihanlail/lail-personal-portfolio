@@ -1,9 +1,9 @@
 "use client"
 
-import Back from '@/components/back'
-import OtherSkills from '@/components/otherSkills'
-import Skills from '@/components/skills'
-import SkillsTitle from '@/components/skillsTitle'
+import Back from '@/components/back/back'
+import OtherSkills from '@/components/skills/otherSkills'
+import Skills from '@/components/skills/skills'
+import SkillsTitle from '@/components/skills/skillsTitle'
 import { motion } from 'framer-motion'
 import React from 'react'
 
