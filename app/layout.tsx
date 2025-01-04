@@ -4,24 +4,27 @@ import "./globals.css";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
-
-
-
 export const metadata: Metadata = {
   title: {
-    default: "Raihan Lail Ramadhan",
-    template: "%s | Raihan Lail Ramadhan",
+    default: "Home - Raihan Lail Ramadhan",
+    template: "%s - Raihan Lail Ramadhan",
   },
   description: "A Junior Front-End Developer",
+  metadataBase: new URL('https://lail-personal-portfolio.vercel.app/'),
   twitter: {
     card: "summary_large_image",
     title: "Raihan Lail Ramadhan",
     description: "A Junior Front-End Developer",
-    
+    site: "lail-personal-portfolio.vercel.app",
+    images: "",
   },
   authors:[{name: "Raihan Lail Ramadhan", url: "https://lail-personal-portfolio.vercel.app/"}],
   openGraph: {
-    title: "Raihan Lail Ramadhan"
+    type: "website",
+    url: "https://lail-personal-portfolio.vercel.app/",
+    title: "Raihan Lail Ramadhan",
+    description: "A Junior Front-End Developer",
+    images: "",
   }
 };
 

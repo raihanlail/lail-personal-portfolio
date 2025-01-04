@@ -5,7 +5,7 @@ import Projects from "@/components/projects/projects";
 import Skills from "@/components/skills/skills";
 import SkillsButton from "@/components/skills/skillsButton";
 import SkillsTitle from "@/components/skills/skillsTitle";
-
+import { Metadata } from "next";
 
 
 export default function Home() {
