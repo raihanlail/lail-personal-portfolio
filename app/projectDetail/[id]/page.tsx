@@ -3,6 +3,11 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects"
+}
 
 const Page = ({ params }: { params: { id: number } }) => {
   const { id } = params;

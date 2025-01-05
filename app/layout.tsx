@@ -9,12 +9,12 @@ export const metadata: Metadata = {
     default: "Home - Raihan Lail Ramadhan",
     template: "%s - Raihan Lail Ramadhan",
   },
-  description: "A Junior Front-End Developer",
+  description: "Full Stack Web Developer",
   metadataBase: new URL('https://lail-personal-portfolio.vercel.app/'),
   twitter: {
     card: "summary_large_image",
     title: "Raihan Lail Ramadhan",
-    description: "A Junior Front-End Developer",
+    description: "Full Stack Web Developer",
     site: "lail-personal-portfolio.vercel.app",
     images: "",
   },
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://lail-personal-portfolio.vercel.app/",
     title: "Raihan Lail Ramadhan",
-    description: "A Junior Front-End Developer",
+    description: "Full Stack Web Front-End Developer",
     images: "",
   }
 };
