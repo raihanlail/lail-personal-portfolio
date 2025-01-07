@@ -18,7 +18,11 @@ export const metadata: Metadata = {
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Developer",
     site: "https://raihan-lail-ramadhan.vercel.app/",
-    images: "public/photo.png",
+    images: {
+      url: "photo.png",
+      width: 1200,
+      height: 630,
+    },
   },
   authors: [
     {
@@ -31,10 +35,13 @@ export const metadata: Metadata = {
     url: "https://raihan-lail-ramadhan.vercel.app/",
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Front-End Developer",
-    images: "public/photo.png",
+    images: {
+      url: "photo.png",
+      width: 1200,
+      height: 630,
+    },
   },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
