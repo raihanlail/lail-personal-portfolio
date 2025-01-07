@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Developer",
     site: "https://raihan-lail-ramadhan.vercel.app/",
-    images: "@/public/photo.png",
+    images: "public/photo.png",
   },
   authors: [
     {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     url: "https://raihan-lail-ramadhan.vercel.app/",
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Front-End Developer",
-    images: "@/public/photo.png",
+    images: "public/photo.png",
   },
 };
 
