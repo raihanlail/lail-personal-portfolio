@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-const baseUrl = 'https://raihan-lail-ramadhan.vercel.app'
+const baseUrl = `${process.env.NEXT_PUBLIC_BASE_URL}`
  
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
