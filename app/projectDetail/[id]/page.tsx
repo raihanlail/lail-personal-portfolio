@@ -16,6 +16,17 @@ export async function generateMetadata({
     title: project.title,
     description: project.description,
     keywords: project.tags.join(", "),
+    openGraph: {
+      title: project.title,
+      description: project.description,
+      images: [
+        {
+          url: project.imageUrl.src,
+          width: 1200,
+          height: 630,
+          alt: project.title,
+        },
+      ],    }
   };
 }
 
