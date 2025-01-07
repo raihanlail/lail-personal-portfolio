@@ -7,19 +7,21 @@ import SkillsButton from "@/components/skills/skillsButton";
 import SkillsTitle from "@/components/skills/skillsTitle";
 import { Metadata } from "next";
 
-
+export const metadata: Metadata = {
+  title: "Home",
+  description: "Raihan Lail Ramadhan, a Full-Stack Web Developer",
+  keywords: "Raihan Lail Ramadhan",
+};
 export default function Home() {
   return (
-   <div>
-    <Intro/>
-    <Projects/>
-    <SkillsTitle />
-    <Skills/>
-    <SkillsButton/>
-    <Experiences/>
-    <AboutButton/>
-    
-    
-   </div>
+    <div>
+      <Intro />
+      <Projects />
+      <SkillsTitle />
+      <Skills />
+      <SkillsButton />
+      <Experiences />
+      <AboutButton />
+    </div>
   );
 }

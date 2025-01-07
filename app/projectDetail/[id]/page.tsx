@@ -5,8 +5,18 @@ import Link from "next/link";
 import React from "react";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Projects"
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: number };
+}): Promise<Metadata> {
+  const { id } = params;
+  const project = projectsData[id];
+  return {
+    title: project.title,
+    description: project.description,
+    keywords: project.tags.join(", "),
+  };
 }
 
 const Page = ({ params }: { params: { id: number } }) => {
@@ -58,7 +68,7 @@ const Page = ({ params }: { params: { id: number } }) => {
           </ul>
         </div>
       </div>
-      <Back/>
+      <Back />
     </div>
   );
 };
