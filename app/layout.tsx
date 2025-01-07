@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import photo from "@/public/photo.png";
 
 import "./globals.css";
 import Header from "@/components/header/header";
@@ -11,26 +12,26 @@ export const metadata: Metadata = {
   },
   description: "%s",
   keywords: "%s",
-  metadataBase: new URL("https://lail-personal-portfolio.vercel.app/"),
+  metadataBase: new URL("https://raihan-lail-ramadhan.vercel.app/"),
   twitter: {
     card: "summary_large_image",
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Developer",
-    site: "lail-personal-portfolio.vercel.app",
-    images: "",
+    site: "https://raihan-lail-ramadhan.vercel.app/",
+    images: "@/public/photo.png",
   },
   authors: [
     {
       name: "Raihan Lail Ramadhan",
-      url: "https://lail-personal-portfolio.vercel.app/",
+      url: "https://raihan-lail-ramadhan.vercel.app/",
     },
   ],
   openGraph: {
     type: "website",
-    url: "https://lail-personal-portfolio.vercel.app/",
+    url: "https://raihan-lail-ramadhan.vercel.app/",
     title: "Raihan Lail Ramadhan",
     description: "Full Stack Web Front-End Developer",
-    images: "",
+    images: "@/public/photo.png",
   },
 };
 
