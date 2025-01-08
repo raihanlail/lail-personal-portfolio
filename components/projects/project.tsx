@@ -23,16 +23,18 @@ function Project({ id, title, description, tags, source, imageUrl }: ProjectProp
       }}
       className=" group mb-3 sm:mb-10 last:mb-0"
     >
-      <Link href={`/projectDetail/${id - 1}`}
+      <div 
         className=" bg-color-secondary lg:h-[48vh] cursor-pointer relative max-w-[92rem] my-8 border flex  flex-col bg-opacity-80 rounded-lg  border-color-primary/5
         overflow-hidden mx-4 sm:mx-20  hover:bg-color-bright transition-all"
       >
         <div className="flex flex-col lg:flex-row">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 max-w-full lg:max-w-[50%] flex flex-col h-full  lg:group-even:ml-[36rem]">
+            <Link href={`/projectDetail/${id - 1}`}> 
             <h3 className="text-2xl   font-semibold">{title}</h3>
             <p className="mt-2 text-sm sm:text-base leading-relaxed">
               {description}
             </p>
+            </Link>
             <ul className="flex flex-wrap gap-2  mt-4">
               {tags?.map((tag, i) => (
                 <li
@@ -59,6 +61,7 @@ function Project({ id, title, description, tags, source, imageUrl }: ProjectProp
               ))}
             </ul>
           </div>
+          <Link href={`/projectDetail/${id - 1}`}>
           <Image
             src={imageUrl}
             quality={95}
@@ -68,8 +71,9 @@ function Project({ id, title, description, tags, source, imageUrl }: ProjectProp
             rounded-md shadow-2xl  group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 transition-all"
             alt={title}
           />
+          </Link>
         </div>
-      </Link>
+      </div>
     </motion.div>
   );
 }

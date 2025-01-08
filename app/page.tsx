@@ -8,7 +8,7 @@ import SkillsTitle from "@/components/skills/skillsTitle";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home",
+  
   description: "Raihan Lail Ramadhan, a Full-Stack Web Developer",
   keywords: "Raihan Lail Ramadhan",
 };
