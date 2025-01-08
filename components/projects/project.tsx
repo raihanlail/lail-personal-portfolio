@@ -24,7 +24,7 @@ function Project({ id, title, description, tags, source, imageUrl }: ProjectProp
       className=" group mb-3 sm:mb-10 last:mb-0"
     >
       <div 
-        className=" bg-color-secondary lg:h-[48vh] cursor-pointer relative max-w-[92rem] my-8 border flex  flex-col bg-opacity-80 rounded-lg  border-color-primary/5
+        className=" bg-color-secondary lg:h-[50vh] cursor-pointer relative max-w-[92rem] my-8 border flex  flex-col bg-opacity-80 rounded-lg  border-color-primary/5
         overflow-hidden mx-4 sm:mx-20  hover:bg-color-bright transition-all"
       >
         <div className="flex flex-col lg:flex-row">
